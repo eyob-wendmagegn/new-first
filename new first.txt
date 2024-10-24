@@ -1,0 +1,16 @@
+import React from 'react'
+import './home.css';
+
+function Home() {
+    function hand(){
+        alert("the button is click")
+    }
+  return (
+    <div>
+        <h1 className="homes">This is home pages and then as it is</h1>
+        <button onClick={hand}>CLICK ME</button>
+    </div>
+  )
+}
+
+export default Home;
